@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
-const MONGO_KEY = 'mongodb+srv://pranaygarg:pranaygarg@cluster.vzsbd.mongodb.net/todo?retryWrites=true&w=majority'
+//has to be hidden
+const MONGO_KEY = 'mongodb+srv://<username>:<password>@cluster.vzsbd.mongodb.net/<table_name>?retryWrites=true&w=majority'
 const app = require('./routes')
 
 
